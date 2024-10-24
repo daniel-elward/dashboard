@@ -126,8 +126,6 @@ html, body {
     background-color: rgb(231, 231, 231);
     padding: 30px;
     gap: 15px;
-
-    border: 1px solid red;
 }
 
 .main-content-wrapper h1 {
@@ -153,11 +151,30 @@ html, body {
     background-color: white;
     padding: 10px 30px;
     border-radius: 10px;
+    box-shadow:5px 5px 10px #b6b6b6;
 }
 
 .trending {
     grid-column: 2/2;
-    border: 1px solid red;
+    
+}
+
+.trending-wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow:5px 5px 10px #b6b6b6;
+}
+
+.trending-wrapper h1 {
+    margin: 10px;
+}
+
+.user-icon img {
+    border-radius: 100px;
+    margin-right: 20px;
 }
 
 .content-card {
@@ -170,6 +187,7 @@ html, body {
     margin: 30px 0;
     border-radius: 10px;
     padding: 20px;
+    box-shadow:5px 5px 10px #b6b6b6;
 }
 
 .content-card-controls {
